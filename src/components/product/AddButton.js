@@ -5,7 +5,7 @@ import "./AddButton.css";
 export default function AddButton(props) {
   const { cartItems, setCartItems } = useContext(AppContext);
   const addtoCart = (id) => {
-    setCartItems((prev) => ({ ...prev, [id]: (prev[id] ?? 0) + 1 }));
+    setCartItems((prev) => ({ ...prev, [id]: (prev[id] ?? 0) + 1   }));
   };
   const updateCart = (id, qty) => {
     setCartItems((prev) => ({ ...prev, [id]: qty }));

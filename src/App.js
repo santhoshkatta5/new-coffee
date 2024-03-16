@@ -29,6 +29,7 @@ function App() {
             <Route path={`${PATH}/cart`} element={<Cart />} />
           </Routes>
           <Footer />
+          
         </Router>
       {/* )} */}
     </div>

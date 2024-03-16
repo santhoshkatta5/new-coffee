@@ -22,6 +22,7 @@ export default function Login() {
   return (
     <>
       {flag === 1 && <Register />}
+      
       <div className="container">
         <div className="leftBox">
           <div className="title">Irish Cafe</div>

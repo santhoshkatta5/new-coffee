@@ -22,7 +22,6 @@ export default function Navbar() {
       <div className="links">
         <Link to={`${PATH}/`}> Products </Link>
         <Link to={`${PATH}/order`}> Orders({myOrders.length}) </Link>
-        <Link to={`${PATH}/Login`}> Login({Login.length}) </Link>
         {total > 0 && (
           <Link to={`${PATH}/cart`}> Cart({total}) </Link>
         )}

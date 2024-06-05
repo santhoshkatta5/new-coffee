@@ -33,7 +33,7 @@ export default function Cart() {
 
   const submitOrder = () => {
     if (flag < 2) {
-      navigate("/ecomm-react/login");
+      navigate("/new-coffee/login");
     } else {
       order.date = Date().slice(0, 15);
       order.email = user.email;
